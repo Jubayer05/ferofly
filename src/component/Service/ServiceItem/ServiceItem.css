@@ -1,0 +1,17 @@
+.serviceItem {
+  text-align: center;
+  margin: 40px;
+}
+
+.serviceItem__img {
+  width: 70px;
+  margin-bottom: 15px;
+}
+
+.serviceItem__title {
+  margin-bottom: 20px;
+}
+
+.serviceItem p {
+  font-style: italic;
+}

@@ -1,0 +1,154 @@
+@font-face {
+  font-family: "didot-w01-italic,serif";
+  src: url(../../asset/didot/Didot\ eText\ W01\ Italic.ttf);
+}
+
+.header {
+  min-width: 980px;
+  width: 980px;
+  margin: 0 auto;
+}
+
+.header__content {
+  background-color: #ffffff;
+  text-align: center;
+  margin: 0 0 100px 0;
+  padding-top: 100px;
+}
+
+.header__content h1 {
+  font-size: 40px;
+  font-family: "didot-w01-italic,serif";
+  letter-spacing: 0.1em;
+  padding: 15px;
+}
+
+.header__text {
+  position: relative;
+  font-size: 20px;
+  font-family: "didot-w01-italic,serif";
+}
+
+.header__text::after,
+.header__text::before {
+  content: "";
+  background-color: #000000;
+  height: 1px;
+  width: 29px;
+  position: absolute;
+  top: 52%;
+}
+
+.header__text::before {
+  left: 36.5%;
+  width: 31px;
+}
+.header__text::after {
+  top: 66%;
+}
+
+.header__bg {
+  background-image: url(../../img/header__bg.jpg);
+  height: 600px;
+  width: 100%;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+.header__form {
+  padding-bottom: 40px;
+  display: flex;
+  margin-top: 50px;
+  font-family: "brandon-grot-w01-light, sans-serif";
+}
+
+.header__btn {
+  font-family: "brandon-grot-w01-light, sans-serif";
+  padding: 0 20px;
+  border: none;
+  background-color: #000000;
+  color: #ffffff;
+  width: 20%;
+  height: 45px;
+  transform: translateY(23px);
+}
+
+.header__calender {
+  width: 30%;
+  margin-right: 10px;
+}
+
+.header__calender input {
+  width: 100%;
+  padding: 8px 0;
+  font-size: 18px;
+  font-family: "brandon-grot-w01-light, sans-serif";
+}
+
+.header__count {
+  width: 10%;
+  margin-right: 10px;
+}
+
+.count__box {
+  border: 1px solid #dddddd;
+  display: flex;
+  align-items: center;
+}
+
+.count__num {
+  flex: 1;
+  text-align: center;
+}
+
+.count__box p {
+  display: flex;
+  flex-direction: column;
+  padding-right: 5px;
+}
+
+.calender__style {
+  border: 1px solid #dddddd;
+  padding: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  height: 46px;
+}
+
+.calender__style input {
+  opacity: 0;
+  display: block;
+}
+
+.icon {
+  display: block;
+  position: fixed;
+  right: 30px;
+  top: 50vh;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.tripadvisor {
+  top: 43vh;
+}
+.facebook {
+  top: 50vh;
+}
+.instagram {
+  top: 57vh;
+}
+
+.commentDots {
+  position: fixed;
+  left: 40px;
+  bottom: 5vh;
+  color: #ffffff;
+  background-color: #262323;
+  padding: 15px;
+  font-size: 60px;
+  border-radius: 50%;
+  z-index: 1;
+}

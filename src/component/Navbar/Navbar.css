@@ -1,0 +1,39 @@
+.navbar {
+  background-color: #242323;
+  text-align: center;
+  height: 80px;
+  line-height: 80px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.navbar a {
+  text-decoration: none;
+}
+
+.navbar__link {
+  color: rgb(255, 255, 255);
+  padding: 0 15px;
+  margin: 0 5px;
+  transition: all 0.3s;
+  font-family: "brandon-grot-w01-light, sans-serif";
+  font-size: 20px;
+}
+
+.navbar__link:hover {
+  color: rgb(138, 136, 136);
+}
+
+.navbar__btn {
+  background-color: #242323;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+}
+
+.navbar__btn:hover {
+  background-color: #ffffff;
+  color: #242323;
+  border: 1px solid #242323;
+}
